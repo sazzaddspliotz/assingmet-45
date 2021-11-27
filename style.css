@@ -1,0 +1,876 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+
+body{
+   font: 'Gilroy', sans-serif;
+
+}
+
+header{
+    background-color: #222E5E;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+.center{align-items: center;padding: 25px 0;}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.logo{
+    flex-basis: 20%;
+    padding-left: 10px;
+}
+.logo a img{}
+nav{
+    flex-basis: 60%;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 17px;
+    font-family: 'Gilroy';
+}
+.nav-button{
+    flex-basis: 20%;
+}
+.nav-button a{
+    color: #fff;
+    padding: 14px 40px 16px;
+    transition: all 0.3s linear;
+    border-radius: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'Gilroy';
+    display: inline-block;
+    font-weight: 700;
+    background: #f05b1d;
+}
+.nav-button a:hover{
+    background: #1AB15F;
+}
+.banner-sec{
+    background-color: #222E5E;
+    padding-top: 60px;
+    padding-bottom: 150px;
+}
+.banner-text{
+    flex-basis: 50%;
+    padding-right: 150px;
+}
+.banner-text h1{
+    font-size: 54px;
+    font-weight: bolder;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.13;
+    letter-spacing: normal;
+    margin-bottom: 32px;
+    color: #fff;
+    font-family: 'Gilroy', sans-serif;
+}
+.banner-text p{
+    font-family: 'Gilroy';
+    font-size: 18px;
+    text-align: left;
+    color: #fff;
+    line-height: 30px;
+    margin-bottom: 70px;
+}
+.banner-text a{
+    color: #fff;
+    padding: 14px 40px 16px;
+    transition: all 0.3s linear;
+    border-radius: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Gilroy';
+    display: inline-block;
+    font-weight: 700;
+    background: #f05b1d;
+}
+.banner-text a:hover{
+    background: #1ab15f;
+}
+.banner-img{
+     flex-basis: 50%;
+}
+.banner-img img{width: 90%;}
+
+.learners{
+    width: 100%;
+}
+.learner-number{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    color: #fff;
+}
+.learner-number h2{
+    font-size: 60px;
+    font-family: 'Gilroy';
+}
+.learner-number p{
+    font-size: 18px;
+    text-transform: capitalize;
+    font-family: 'Gilroy';
+}
+.col-pink{flex-grow: 1;padding: 60px 40px;background: #EF507D;}
+.col-yellow{
+    flex-grow: 1;
+    padding: 60px 40px;
+    background: #FAAF3A;
+}
+.col-orange{
+    flex-grow: 1;
+    padding: 60px 40px;
+    background: #FD662D;
+}
+.col-green{
+    flex-grow: 1;
+    padding: 60px 40px;
+    background: #1AB15F;
+}
+.col-blue{
+    flex-grow: 1;
+    padding: 60px 40px;
+    background: #1375F7;
+}
+
+.feature-sec{
+    padding: 100px 0;
+}
+.feature-sec h5{
+    color: #f05b1d;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: 'Gilroy';
+}
+.feature-sec h2{
+    color: #4d4d4d;
+    font-size: 32px;
+    text-transform: unset;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Gilroy';
+}
+.feature-sec p{
+    color: #4d4d4d;
+    font-size: 18px;
+    letter-spacing: normal;
+    text-transform: unset;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Gilroy';
+}
+.feature-gallary{
+    margin-top: 60px;
+}
+.feature-card{
+    flex-basis: 25%;
+}
+.feature-item{
+    margin: 15px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 10%);
+    padding-bottom: 10px;
+}
+.feature-img img{}
+.feature-img{}
+.feature-item h5{
+    text-align: center;
+    margin-top: 18px;
+    text-transform: unset;
+    margin-bottom: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Gilroy';
+}
+.feature-item p{
+    color: #4d4d4d;
+    font-size: 16px;
+    letter-spacing: normal;
+    text-transform: unset;
+    line-height: 28px;
+    padding: 0 15px;
+    font-family: 'Gilroy';
+}
+.bg-green{
+    background-color: green;
+}
+.bg-blue{
+    background-color: blue;
+}
+.bg-orange{
+    background-color: orange;
+}
+.bg-red{
+    background-color: red;
+}
+.bg-pink{
+    background-color: pink;
+}
+
+.feature-card .jf-line{
+    height: 0px;
+    width: 0px;
+    border-radius: 10px;
+    opacity: 0;
+    transition: 0.5s linear;
+    margin: 0 auto;
+    display: block;
+}
+.feature-card:hover .jf-line{
+    height: 8px;
+    opacity: 1;
+    transition: 0.5s linear;
+    width: 70px;
+    border-radius: 10px;
+    margin: 10px auto 10px auto;
+}
+.feature-item .text-1{
+    color: green;
+}
+.feature-item .text-2{
+    color: blue;
+}
+.feature-item .text-3{
+    color: orange;
+}
+.feature-item .text-4{
+    color: red;
+}
+.course-sec{
+    padding-bottom: 100px;
+}
+.course-text{
+    text-align: center;
+}
+.course-text h5{
+    font-family: 'Gilroy';
+    color: #f05b1d;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.course-text h2{
+    font-family: 'Gilroy';
+    color: #4d4d4d;
+    font-size: 32px;
+    text-transform: unset;
+    margin-bottom: 20px;
+}
+.course-text p{
+    font-family: 'Gilroy';
+    color: #4d4d4d;
+    font-size: 18px;
+    letter-spacing: normal;
+    text-transform: unset;
+    width: 100%;
+    margin: 0;
+}
+.course-details{
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    position: relative;
+}
+.curriculam{
+    flex-basis: 52%;
+}
+.video-sec{margin-bottom: 30px;border-radius: 20px;overflow: hidden;}
+.curriculam-text{}
+.curriculam-text h5{
+    margin-bottom: 18px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Gilroy';
+}
+.curriculam-text p{
+    color: #4d4d4d;
+    font-size: 16px;
+    letter-spacing: normal;
+    text-transform: unset;
+    line-height: 25px;
+    font-family: 'Gilroy';
+}
+.course-curriculam{margin: 35px 0;}
+.course-curriculam-img{flex-basis: 50%;}
+.course-curriculam-img img{}
+.course-curriculam-text{flex-basis: 50%;}
+.course-curriculam-text h5{
+    margin-bottom: 18px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Gilroy';
+}
+.course-curriculam-text p{
+    color: #4d4d4d;
+    font-size: 16px;
+    letter-spacing: normal;
+    text-transform: unset;
+    line-height: 25px;
+    font-family: 'Gilroy';
+}
+.Design-Junior{
+    flex-basis: 30%;
+}
+.Junior-card{
+    box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 10%);
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 42px;
+    position: sticky;
+    top: 0;
+}
+.junior-item{}
+.junior-item h4{
+    font-family: 'Gilroy';
+    font-size: 24px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+.junior-rating{
+    margin-bottom: 10px;
+}
+.junior-rating span{color: #ef581d;}
+.junior-item p{
+    font-size: 15px;
+    color: #4d4d4d;
+    line-height: 24px;
+    margin-bottom: 16px;
+    font-family: 'Gilroy';
+}
+.j-course-topic{
+}
+.topic-item{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 14px;
+}
+.item-photo{
+}
+.item-photo img{width: 35px;}
+.item-photo p{
+    font-family: 'Gilroy';
+    color: #4d4d4d;
+    font-size: 15px;
+    text-align: center;
+    text-shadow: 0px 0px 0.5px #333;
+}
+.topic-btn{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+.topic-btn a{
+    background: #f05b1d;
+    color: #fff;
+    padding: 14px 40px 16px;
+    transition: all 0.3s linear;
+    border-radius: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'Gilroy';
+    font-weight: 700;
+    display: inline-block;
+}
+.topic-btn a:hover{
+    background: #1ab15f;
+}
+.curriculum-box{
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+}
+.enrolled-number{
+    color: #ddd !important;
+    padding-left: 5px;
+    font-family: 'Gilroy';
+}
+.enrolled-number span{}
+.green{text-align: center;border-radius: 4px;padding: 20px 0px;background: #1ab15f;}
+.pink{
+    text-align: center;
+    border-radius: 4px;
+    background: #ef507d;
+    padding: 20px 0;
+}
+.orange{
+    text-align: center;
+    border-radius: 4px;
+    padding: 20px 0px;
+    background: #fea829;
+}
+.deepblue{
+    background: #222e5e;
+    text-align: center;
+    border-radius: 4px;
+    padding: 20px 0px;
+}
+.red{
+    text-align: center;
+    border-radius: 4px;
+    background: #f05b1d;
+    padding: 20px 0;
+}
+.blue{
+    text-align: center;
+    border-radius: 4px;
+    background: #1375f7;
+    padding: 20px 0;
+}
+
+.course-kid-sec{
+    background: #222e5e;
+    padding: 80px 0px;
+}
+.course-kid-text{
+    text-align: center;
+}
+.course-kid-text h5{
+    font-family: 'Gilroy';
+    color: #f05b1d;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.course-kid-text h2{
+    font-family: 'Gilroy';
+    color: #fff;
+    font-size: 32px;
+    text-transform: unset;
+    margin-bottom: 20px;
+}
+.course-kid-text p{
+    font-family: 'Gilroy';
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: normal;
+    text-transform: unset;
+    width: 100%;
+    margin: 0;
+}
+.course-kid-card{
+    display: flex;
+    margin-top: 55px;
+    padding-bottom: 60px;
+}
+.course-kid-item{
+    flex-basis: 25%;
+    background: rgba(0, 0, 0, 0.1);
+    box-shadow: none;
+    margin: 15px;
+    border-radius: 12px;
+    padding: 12px;
+}
+.course-kid-item img{
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+.course-kid-item h5{
+    font-family: 'Gilroy';
+    text-transform: unset;
+    margin-bottom: 12px;
+    font-size: 20px;
+    color: #fff;
+}
+.course-kid-item p{
+    font-family: 'Gilroy';
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: normal;
+    text-transform: unset;
+    line-height: 28px;
+    margin-bottom: 15px;
+}
+
+.enroll{}
+.enroll a{
+    color: #1375f7;
+    font-family: 'Gilroy';
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 15px;
+    transition: all 0.5s ease-in-out;
+}
+.enroll a:hover{
+    color: #f05b1d;
+}
+.enroll a i{margin-left: 15px;}
+.extra-space{
+    flex-basis: 50%;
+}
+
+.success-stories{
+    padding: 150px 0px 100px;
+}
+.success{
+    display: flex;
+}
+.success-left{
+    flex-basis: 30%;
+}
+.success-left h5{
+    color: #4d4d4d !important;
+    width: 100%;
+    text-align: left;
+    display: block;
+    font-family: 'Gilroy';
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.success-left h2{
+    font-family: 'Gilroy';
+    color: #4d4d4d;
+    font-size: 32px;
+    text-transform: unset;
+    margin-bottom: 20px;
+}
+.success-left h2 span{
+    color: #f05b1d;
+}
+.success-left p{
+    color: #4d4d4d !important;
+    text-align: left;
+    display: block;
+    font-family: 'Gilroy';
+    font-size: 18px;
+    letter-spacing: normal;
+    text-transform: unset;
+}
+.success-btn{
+    margin-top: 25px;
+}
+.success-btn a{
+    background: #f05b1d;
+    color: #fff;
+    padding: 14px 40px 16px;
+    transition: all 0.3s linear;
+    border-radius: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'Gilroy';
+    font-weight: 700;
+    display: inline-block;
+}
+.success-btn a:hover{
+    background: #1ab15f;
+}
+.success-img{
+    flex-basis: 45%;
+    background: #fff;
+    position: relative;
+}
+.blue-backdrop{
+}
+.blue-backdrop::before{
+    content: "";
+    position: absolute;
+    top: -40px;
+    left: -40px;
+    width: 80%;
+    height: 80%;
+    background: #1375f7;
+    border-radius: 25px;
+}
+.success-right{
+    border-radius: 15px;
+    position: relative;
+    background: #fff;
+    border: 1px solid #f7f7f7;
+    padding: 20px;
+}
+.success-card{
+}
+.success-card-mini{}
+.card-mini{
+    display: flex;
+    align-items: center;
+}
+.card-mini-img{
+    flex-basis: 50%;
+    padding: 0 15px;
+}
+.card-mini-img img{}
+.card-mini-text{
+    flex-basis: 50%;
+    padding-left: 15px;
+}
+.card-mini-text h3{
+    font-family: 'Gilroy';
+    color: #4d4d4d;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    /* font-size: 27px; */
+}
+.card-mini-text h3 span{
+    color: #1ab15f !important;
+}
+.story-massage{
+    position: relative;
+    padding-left: 50px;
+    margin-top: 20px;
+}
+.story-massage::before{
+    position: absolute;
+    content: url(images/quote.png);
+    top: -64px;
+    left: -10px;
+}
+.story-massage p{
+    font-family: 'Gilroy';
+}
+.success-space{
+    flex-basis: 22%;
+}
+.card-mini-text p{
+    font-family: 'Gilroy';
+}
+.dot{
+    margin-top: 30px;
+    text-align: center;
+}
+.slider{
+}
+.slider span{
+    background-color: #ccc;
+    height: 13px;
+    width: 13px;
+    display: inline-block;
+    margin: 0 5px;
+    border-radius: 50%;
+}
+
+
+.live-class-section{
+    padding: 70px 0;
+}
+.live-class{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.live-class-thumbnail{
+    max-width: 50%;
+    flex-basis: 50%;
+}
+.live-class-content{
+    max-width: 50%;
+    flex-basis: 50%;
+    padding-left: 100px;
+}
+.live-class-content h4{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #f05b1d;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    font-family: 'Gilroy';
+}
+.live-class-content h3{
+    color: #4d4d4d;
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-family: 'Gilroy';
+}
+.live-class-content h3 span{
+    color: #f05b1d;
+}
+.live-class-content p{
+    color: #4d4d4d;
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: 'Gilroy';
+}
+
+.discount-section{
+    padding: 70px 0;
+}
+.discount{
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(images/footer-bg.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 60px 0;
+}
+.discount-form{
+    max-width: 40%;
+    flex-basis: 40%;
+    padding-left: 100px;
+}
+.discount-card{
+    text-align: center;
+    padding: 30px 20px 40px 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 0px #0000002e;
+}
+.discount-form h3{
+    color: #4d4d4d;
+    font-size: 32px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    font-family: 'Gilroy';
+}
+.discount-form span{
+    color: #f05b1d;
+    text-transform: uppercase;
+    display: block;
+}
+.discount-form p{
+    color: #4d4d4d;
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: 'Gilroy';
+}
+.discount-form b{
+    color: #f05b1d;
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: 'Gilroy';
+}
+.discount-blank-column{
+    max-width: 60%;
+    flex-basis: 60%;
+}
+
+.branch-section{
+    padding: 70px 0;
+}
+.branch-box{
+    background-color: #2E367D;
+    border-radius: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.branch-info{
+    max-width: 50%;
+    flex-basis: 50%;
+}
+.branch-name-address{
+    padding: 120px 50px;
+}
+.branch-name-address h3{
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #fff;
+    margin-bottom: 10px;
+    font-family: 'Gilroy';
+}
+.branch-name-address p{
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+    font-family: 'Gilroy';
+}
+
+footer{
+    padding-top: 70px;
+}
+.footer-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-item{
+    max-width: 25%;
+    flex-basis: 25%;
+}
+.footer-item h6{
+    color: #1e266d;
+    font-size: 20px;
+    margin-bottom: 15px;
+    line-height: 1.5;
+    font-weight: 700;
+    font-family: 'Gilroy';
+}
+.footer-item p{
+    color: #4d4d4d;
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: 'Gilroy';
+}
+.footer-item ul{
+    list-style: none;
+    line-height: 2;
+}
+.footer-item ul li a{
+    font-family: 'Gilroy';
+    text-decoration: none;
+    color: #4d4d4d;
+    font-size: 18px;
+    transition: all 0.5s ease-in-out;
+}
+.footer-item ul li a:hover{
+    margin-left: 5px;
+}
+.footer-credit p{
+    color: #4d4d4d;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px 0;
+    font-family: 'Gilroy';
+}
+.register-btn{
+    margin-top: 42px;
+}
+.register-btn a{
+    font-family: 'Gilroy';
+    text-align: center;
+    font-size: 18px;
+    border-radius: 20px;
+    background: #f05b1d;
+    padding: 14px 40px 16px;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+.register-btn a:hover{
+    background: #1AB15F;
+}
+.junior-space{
+    flex-basis: 18%;
+}
